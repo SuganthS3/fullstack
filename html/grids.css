@@ -1,0 +1,16 @@
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+    background-color:lightcyan;
+  }
+.item {
+    border-radius: 150px;
+    padding: 10px;
+    border: solid lightcyan;
+    border-width: 10px;background-color: aquamarine;
+    text-align: center;
+
+}
